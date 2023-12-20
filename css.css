@@ -1,0 +1,145 @@
+body {
+}
+
+/* //Klasser  */
+.container {
+  font-family: "Rubik", sans-serif;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background: rgb(5, 3, 31);
+  background: linear-gradient(
+    90deg,
+    rgba(5, 3, 31, 1) 0%,
+    rgba(24, 17, 91, 1) 46%,
+    rgba(60, 4, 87, 1) 100%
+  );
+}
+
+.paragrafer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  row-gap: 10px;
+  column-gap: 10px;
+  color: black;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  height: 250px;
+  align-items: stretch;
+}
+.paragraf {
+  padding: 10px;
+  border: solid 3px black;
+  background: whitesmoke;
+}
+
+.titel {
+  position: relative;
+  margin-top: 45px;
+  padding: 0;
+  margin-bottom: 1rem auto;
+  height: 80vh;
+  background: url(bakgrund1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.Artiklar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+/* Tillfälligt tom */
+.artikel {
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 100;
+  width: 100%;
+  padding: 10px 80px;
+  background: midnightblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 80;
+}
+.Eric {
+  font-size: 32px;
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: 700;
+}
+.navbar {
+  margin-right: 5%;
+}
+.navbar a {
+  position: relative;
+  font-size: 20px;
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 20px;
+  flex-wrap: wrap;
+}
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: whitesmoke;
+  transition: 1s;
+}
+
+.navbar a:hover::before {
+  width: 100%;
+}
+
+.wrap {
+  align-content: space-between;
+  background: whitesmoke;
+  flex-basis: 200px;
+  margin: 15px;
+  border: solid 3px black;
+  margin-left: 16%;
+  margin-right: 16%;
+  height: 300px;
+}
+.wrap p {
+  text-align: center;
+  margin: 10px;
+  font-size: 18px;
+}
+
+h1 {
+  position: absolute;
+  margin: 0 auto;
+  color: whitesmoke;
+  text-align: center;
+  width: 100%;
+  margin-top: 5%;
+}
+h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+.foot {
+  display: inline-block;
+  height: 2em;
+  background-color: midnightblue;
+  text-align: left;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  color: aliceblue;
+}
